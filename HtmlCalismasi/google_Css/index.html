@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Google</title>
+  </head>
+  <body>
+    <div style="height: 100vh; display: flex; flex-direction: column; justify-content: space-between;">
+      <div >
+        <!-- ! Navbar Buraya Start-->
+        <nav
+          style="
+            display: flex;
+            justify-content: flex-end;
+            align-items: baseline;
+          ">
+          <a href="#">Gmail</a>
+          <a href="#">Görseller</a>
+          <a href="#">Menü</a>
+          <a class="gmailIcon" href="#">m</a>
+        </nav>
+        <!-- ! Navbar Buraya End-->
+        <section style="display: flex; height: 65vh;">
+          <article>
+            <img class="googleIcon" src="./google.svg" alt="Google" />
+          </article>
+          <article class="searchArticle">
+            <button>
+              <a href="#"
+                ><img class="searchIcon" src="./search.svg" alt=""
+              /></a>
+            </button>
+            <input class="searchInput" type="text" />
+            <button>
+              <a href="#"
+                ><img class="searchIcon micIcon2" src="./keyboard.svg" alt=""
+              /></a>
+            </button>
+            <button>
+              <a href="#"><img class="micIcon" src="./mic.svg" alt="" /></a>
+            </button>
+          </article>
+          <article class="buttons">
+            <div>
+              <input type="submit" value="Google'da Ara" />
+              <input type="submit" value="Kendimi Şanslı Hissediyorum" />
+            </div>
+          </article>
+        </section>
+      </div>
+
+     
+      <footer class="footer">
+        
+        <div style="padding-left: 20px; width: 25%; display: flex;justify-content: space-around;">
+          <a href="#">Hakkında</a>
+          <a href="#">Reklam</a>
+          <a href="#">İşletme</a>
+          <a href="#">Arama nasıl Çalışılır</a>
+        </div>
+        <div style="padding-right: 20px; width: 15%; display: flex;justify-content: space-around;">
+            <a href="#">Gizlilik</a>
+            <a href="#">Şartlar</a>
+            <a href="#">Ayarlar</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
