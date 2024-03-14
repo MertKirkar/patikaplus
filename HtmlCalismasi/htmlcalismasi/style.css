@@ -1,0 +1,22 @@
+input:active{
+    padding: 20px;
+    background-color: brown;
+}
+
+ul>li:nth-child(5){
+    color: brown;
+}
+
+p::first-letter{
+    background-color: brown;
+    padding: 5px;
+    font-size: 30px;
+}
+.p_2::before{
+content: "Lorem";
+background-color: aqua;
+}
+.p_2::after{
+    content: "reklam";
+    background-color: blue;
+}

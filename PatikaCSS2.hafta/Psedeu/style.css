@@ -1,0 +1,31 @@
+.title::first-letter{
+    background-color: brown;
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    margin-top: 10px;
+}
+.letter::before{
+    content: "Not ";
+
+}
+.letter::after{
+    content: "Aferr";
+}
+
+.psedeu::selection{
+    color: rgb(255,0,10);
+    background-color: yellow;
+}
+p::first-line{
+    color: blue;
+}
+
+
+

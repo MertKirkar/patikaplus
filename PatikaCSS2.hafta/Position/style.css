@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+.test {
+    position: absolute;
+    left: 40px;
+}
+
+.container{
+    background-color: rgb(173, 255, 255);
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+.container div:nth-child(1){
+    background-color: rgb(0, 98, 255);
+    width: 200px;
+    height: 200px;
+}
+.container div:nth-child(2){
+    background-color: rgb(160, 115, 115);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+   right: 100px;
+}
+.container div:nth-child(3){
+    background-color: rgb(255, 73, 1);
+    width: 200px;
+    height: 200px;
+}
+.page{
+    height: 1200px;
+}
+.title{
+    height: 100px;
+    background-color: orange;
+    position: sticky;
+    top: 0;
+}
+.title2{
+    height: 100px;
+    background-color: orange;
+    position: sticky;
+    top: 0px;
+}
+
+.checkbox{
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 40px;
+    background-color: #ddd;
+    border-radius: 40px;
+    transition: 0.5s left , 0.5s background-color;
+}
+.checkbox .check-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: tomato;
+    left: 5px;
+    top: 5px;
+}
+
+label input{
+ 
+display: none;
+}
+label input:checked + .checkbox .check-btn{
+    left: 65px;
+    
+    background-color: #ddd;
+}
+label input:checked + .checkbox{
+    background-color: tomato;
+    
+}
+label input:checked + .body{
+   background-color: rgb(49, 55, 53);
+}
+
+
